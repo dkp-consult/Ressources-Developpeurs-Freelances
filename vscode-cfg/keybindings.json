@@ -1,0 +1,121 @@
+[
+    {
+        "key": "ctrl+alt+[BracketLeft]",
+        "command": "editor.fold"
+    },
+    {
+        "key": "ctrl+alt+[BracketRight]",
+        "command": "editor.unfold"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.showCommands",
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.quickOpen",
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "revealFileInOS",
+    },
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.gotoSymbol",
+    },
+    {
+        "key": "ctrl+n",
+        "command": "explorer.newFile",
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.quickOpen",
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "editor.action.formatDocument",
+    },
+        {
+        "key": "ctrl+m",
+        "command": "workbench.action.toggleSidebarVisibility",
+    },
+    {
+        "key": "ctrl+shift+alt+[BracketLeft]",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+alt+[BracketRight]",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+alt+[Period]",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+a",
+        "command": "-editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+alt+down",
+        "command": "-editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "ctrl+k f",
+        "command": "-workbench.action.closeFolder",
+        "when": "emptyWorkspaceSupport && workbenchState != 'empty'"
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+=",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+[Period]",
+        "command": "-editor.action.commentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+]

@@ -1,0 +1,104 @@
+/* Styles pour le contenu principal */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Fond foncé */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.8); /* Couleur d'arrière-plan légèrement transparente pour le header */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-left img {
+    max-height: 40px;
+}
+
+.header-center h1 {
+    margin: 0;
+}
+
+.header-right a img {
+    max-height: 30px;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    max-width: 70%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(0, 123, 255, 0.8); /* Bordure avec la couleur du header */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; /* Par défaut, la disposition est en ligne */
+}
+
+@media (max-width: 768px) {
+    /* Pour les écrans de petite taille, inverser la disposition en colonne */
+    .content {
+        flex-direction: column;
+    }
+}
+
+.content-left {
+    flex-basis: 40%;
+    padding: 10px;
+}
+
+.content-left img {
+    max-width: 100%;
+}
+
+.content-right {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 123, 255, 0.8); /* Couleur des liens */
+}
+
+/* Styles pour le footer */
+footer {
+    background-color: rgba(0, 123, 255, 0.8); /* Couleur d'arrière-plan légèrement transparente pour le footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}

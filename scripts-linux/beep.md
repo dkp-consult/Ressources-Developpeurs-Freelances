@@ -1,0 +1,1 @@
+This script was for my IdeaPad 3, the bios beep always on and I've create a script for stopping that. This script was lauch when I start the user session. 

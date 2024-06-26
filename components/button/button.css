@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  width: 100px; /* Editing the size with text doesn't auto */
+  height: 38px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.btn-yellow {
+  background-color: #fea55f;
+}
+
+.btn-dark {
+  background-color: #1c2b3a;
+}
+
+.btn-border {
+  border: 1px solid white;
+}
+
+.btn-text {
+  padding-top: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.btn-animation{
+    transition: background-color 1s ease;
+}
+.btn-animation:hover {
+    background-color: #fea55f;
+}
+
+.text-animation{
+    transition: color 1s ease;
+}
+.text-animation:hover {
+    color: #01080e;
+}
+.text-black {
+  color: #01080e;
+}
+
+.text-white {
+  color: #ffffff;
+}
+

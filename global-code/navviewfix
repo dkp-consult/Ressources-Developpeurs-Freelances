@@ -1,0 +1,14 @@
+Fixing the anchor nav view from stackoverflow : 
+
+https://stackoverflow.com/questions/10732690/offsetting-an-html-anchor-to-adjust-for-fixed-header
+
+<a class="anchor" id="top"></a>
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+
+If you want this to work for visible elements, you can also use a pseudo-element, a la .thing-with-anchor:before { content: ''; display: block; position: relative; width: 0; height: 5em; margin-top: -5em }

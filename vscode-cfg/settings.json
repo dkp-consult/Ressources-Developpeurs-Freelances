@@ -1,0 +1,78 @@
+{
+    "diffEditor.renderSideBySide": false,
+    "editor.fontFamily": "'Fira Code', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "telemetry.telemetryLevel": "off",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "git.autofetch": true,
+    "liveServer.settings.donotVerifyTags": true,
+
+// Grafikart setting
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave" : false,
+    "editor.formatOnPaste": false,
+    "editor.renderWhitespace":"trailing",
+    "editor.linkedEditing": true,
+    "editor.occurrencesHighlight": false,
+    "editor.suggest.insertMode": "replace",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+
+    // Partie gestion fichier
+    "files.autoSave": "afterDelay",
+    "files.defaultLanguage": "markdown",
+
+    // Partie explorer
+    "explorer.autoReveal": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Partie workbench
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 6,
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.editor.enablePreview": false,
+    "emmet.triggerExpansionOnTab": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+            "editor.selectionBackground": "#ffffff33",
+            "editor.selectionHighlightBackground": "#ffffff33",
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.accessibilitySupport": "off",
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "githubPullRequests.createOnPublishBranch": "never",
+    "editor.unicodeHighlight.allowedCharacters": {
+        "è": true,
+        "é": true,
+        "ê": true
+    },
+    "emmet.preferences": {
+    
+    },
+    "emmet.syntaxProfiles": {
+
+
+    },
+    "emmet.variables": {
+        "lang": "fr",
+        "charset": "UTF-8"
+    },
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.largeFileOptimizations": false
+}

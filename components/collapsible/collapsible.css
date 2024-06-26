@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Fira";
+    src: url("../../fonts/FiraCode-Regular.ttf") format("truetype");
+  }
+  .collapsible {
+    background-color: #777;
+    color: rgb(34, 28, 28);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    z-index: 1;
+    line-height: 31px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 31px;
+    background-color: rgba(16, 31, 47, 0.5);
+    margin-top: 10px;
+  }
+  
+  .active-collapsible, .collapsible:hover {
+    background-color: #1E2D3D;
+  }
+  
+  .active-collabsible + .content {
+    padding: 18px;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    font-size: 16px;
+    color: #050505;
+  }
+  
+  .collapsible::before {
+    background-image: url(../../images/icons/Vector.svg);
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    content: "";
+    background-size: cover;
+    width: 13px;
+  }
+  
+  .collapsible-cat {
+    padding-top: 15px;
+    max-height: 200vh;
+  }/*# sourceMappingURL=collapsible.css.map */
