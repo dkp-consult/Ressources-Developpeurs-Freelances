@@ -119,3 +119,47 @@
     },
 
 ]
+
+
+/* Shortcut Mac - export du 23-08-24 */
+
+// Placer vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+    {
+        "key": "ctrl+cmd+p",
+        "command": "git.push"
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "-workbench.action.newWindow"
+    },
+    {
+        "key": "shift+cmd+n",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "cmd+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "cmd+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "alt+m",
+        "command": "workbench.action.toggleSidebarVisibility",
+    },
+    {
+        "key": "shift+cmd+e",
+        "command": "-workbench.view.explorer",
+        "when": "viewContainer.workbench.view.explorer.enabled"
+    },
+    {
+        "key": "shift+cmd+a",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.files.action.focusFilesExplorer"
+    }
+]
